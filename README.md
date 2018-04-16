@@ -4,6 +4,14 @@
 * vue
 * vue-i18n
 
+## 启动
+```
+git clone https://github.com/gabirellaq/vue-language.git
+cd vue-language
+npm install
+npm run dev
+```
+
 ### 使用详解
 
 ```
@@ -65,11 +73,17 @@ module.exports = {
 }
 ```
 
+### 难点
+* 动态加载语言包([vue项目国际化vue-i18n使用](https://juejin.im/post/5aa7e18ff265da2384404334))
+* 图片路径([D-i18n](https://github.com/CommanderXL/D-i18n))
+
 ### capture
 ![img](./screenshot/zh.PNG)
 ![img](./screenshot/en.PNG)
 
 
 ### link
+* [D-i18n](https://github.com/CommanderXL/D-i18n)
 * [di18n-translate](https://github.com/CommanderXL/di18n-translate)
 * [DDFE-blog-di18n](https://github.com/DDFE/DDFE-blog/issues/14)
+* [vue项目国际化vue-i18n使用](https://juejin.im/post/5aa7e18ff265da2384404334)
